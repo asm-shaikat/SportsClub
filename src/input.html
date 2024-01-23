@@ -8,7 +8,7 @@
   <title>Sports Club</title>
 </head>
 
-<body>
+<body class="items-center justify-center h-screen">
   <!-- Navbar Start -->
   <div class="navbar bg-base-100">
     <div class="navbar-start">
@@ -41,12 +41,91 @@
     </div>
     <div class="navbar-end">
       <button class="btn btn-ghost btn-circle">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
       </button>
       <a class="btn btn-error">Get Ticket</a>
     </div>
   </div>
   <!-- Navabr End -->
+
+  <!-- Carousel Start-->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-5 h-full ">
+    <div class="carousel w-full h-3/4">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide4" class="btn btn-circle">❮</a>
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide3" class="carousel-item relative w-full">
+        <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide2" class="btn btn-circle">❮</a>
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide4" class="carousel-item relative w-full">
+        <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide3" class="btn btn-circle">❮</a>
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Carousel End -->
+
+  <!-- Start Progress section -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-5">
+    <div class="text-center">
+      <p class="font-extrabold text-4xl">Professional Hockeys Club</p>
+      <p class="font-medium text-[16px] text-gray-500">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+        turpis placerat dolor. Purus urna in sit nullam proin. </p>
+    </div>
+
+    <!-- Main progress -->
+    <div class="lg:flex mt-10 justify-between">
+      <div class="text-center mb-5">
+        <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+        <p class="font-semibold text-xl">Prayer Facility</p>
+        <p class="text-gray-500 font-normal">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+      </div>
+
+      <div class="text-center mb-5">
+        <div class="radial-progress text-cyan-500" style="--value:95;" role="progressbar">95%</div>
+        <p class="font-semibold text-xl">Experienced Coach</p>
+        <p class="text-gray-500 font-normal">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+      </div>
+
+      <div class="text-center mb-5">
+        <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar">90%</div>
+        <p class="font-semibold text-xl">Senior Player</p>
+        <p class="text-gray-500 font-normal">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+      </div>
+
+      <div class="text-center mb-5">
+        <div class="radial-progress text-sky-500" style="--value:80;" role="progressbar">80%</div>
+        <p class="font-semibold text-xl">Training Ground</p>
+        <p class="text-gray-500 font-normal">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- End Progress secction -->
+
+  
 </body>
 
 </html>
